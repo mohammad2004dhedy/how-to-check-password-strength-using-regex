@@ -1,0 +1,39 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background: #111111;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height:100vh;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width:400px;
+    padding:20px;
+    border:solid 2px gray;
+}
+form p{
+    background:rgba(80, 239, 80, 0.267);
+    padding:20px;
+    margin-bottom:25px;
+}
+form input{
+    background: #000;
+    border: solid 1px #212020b1;
+    outline: none;
+    padding:10px;
+    color: white;
+}
+form .strength{
+    height:15px;
+    margin-top:10px;
+    padding:5px 8px;
+    background: #000;
+}
